@@ -1520,3 +1520,21 @@ a {
         cursor: pointer;
     }
 }
+
+.architecture-principles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.principles-label {
+    grid-column: 1 / -1;
+    margin: 0 0 4px;
+}
+
+.principle-number {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    color: #67a8ff;
+    font-weight: 600;
+}
